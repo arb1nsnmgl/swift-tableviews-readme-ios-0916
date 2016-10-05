@@ -15,7 +15,6 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
         generateFavoriteSongs()
         
     }
@@ -65,5 +64,6 @@ class TableViewController: UITableViewController {
         return cell
     }
  
+    
 
 }
